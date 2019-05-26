@@ -35,37 +35,37 @@ public class MainActivity extends AppCompatActivity {
         public void onClick(View v) {
             switch (v.getId()) {
                 case R.id.button_0:
-                    showText.setText("0");
+                    showText.append("0");
                     break;
                 case R.id.button_1:
-                    showText.setText("1");
+                    showText.append("1");
                     break;
                 case R.id.button_2:
-                    showText.setText("2");
+                    showText.append("2");
                     break;
                 case R.id.button_3:
-                    showText.setText("3");
+                    showText.append("3");
                     break;
                 case R.id.button_4:
-                    showText.setText("4");
+                    showText.append("4");
                     break;
                 case R.id.button_5:
-                    showText.setText("5");
+                    showText.append("5");
                     break;
                 case R.id.button_6:
-                    showText.setText("6");
+                    showText.append("6");
                     break;
                 case R.id.button_7:
-                    showText.setText("7");
+                    showText.append("7");
                     break;
                 case R.id.button_8:
-                    showText.setText("8");
+                    showText.append("8");
                     break;
                 case R.id.button_9:
-                    showText.setText("9");
+                    showText.append("9");
                     break;
                 case R.id.button_point:
-                    showText.setText(".");
+                    showText.append(".");
                     break;
             }
         }
